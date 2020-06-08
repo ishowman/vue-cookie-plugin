@@ -11,7 +11,7 @@ import {PluginFunction} from 'vue' // eslint-disable-line
 import cookie from "js-cookie";
 
 const install: PluginFunction<any> = Vue => {
-  console.log("enter install jscookie...");
+  console.log("enter install jscookie......");
 
   // eslint-disable-next-line no-param-reassign
   Vue.prototype.$AppName = "boyaa.app";

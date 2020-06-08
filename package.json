@@ -1,15 +1,18 @@
 {
-  "name": "aa-vue-plugin",
-  "version": "0.1.2",
+  "name": "vue-cookie-plugin",
+  "version": "0.1.0",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name aa-vue-plugin ./src/main.ts",
-    "build:watch": "vue-cli-service build --watch --target lib --name aa-vue-plugin ./src/main.ts",
-
+    "build": "vue-cli-service build --target lib --name vue-cookie-plugin ./src/main.ts",
+    "dev": "vue-cli-service build --watch --target lib --name vue-cookie-plugin ./src/main.ts",
     "lint": "vue-cli-service lint"
   },
-  "main": "dist/aa-vue-plugin.umd.min.js",
+  "main": "dist/vue-cookie-plugin.umd.min.js",
   "types": "types/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ishowman/vue-cookie-plugin"
+  },
   "dependencies": {
     "@types/js-cookie": "^2.2.6",
     "core-js": "^3.6.5",
