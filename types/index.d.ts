@@ -1,5 +1,5 @@
 import { PluginFunction } from "vue";
 
 import "./vue.d";
-declare const AAVuePlugin: PluginFunction<any>;
-export default AAVuePlugin;
+declare const VueCookiePlugin: PluginFunction<any>;
+export default VueCookiePlugin;
